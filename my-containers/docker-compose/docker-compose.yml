@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  service-one:
+    build: ./service-one
+    environment:
+      MY_ENV_VAR: 'foo'
+    ports:
+      - "8080:8080"
